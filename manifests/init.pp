@@ -1,5 +1,5 @@
 class chocolatey (
-  $url           = 'http://chocolatey.org/api/v2/package/chocolatey/',
+  $url           = 'https://chocolatey.org/api/v2/package/chocolatey/0.9.8.33',
   $unzip         = '7za',
   $download_path = 'c:\\Windows\\Temp\\',) {
   validate_re($unzip, '^(7za|windows)$')
